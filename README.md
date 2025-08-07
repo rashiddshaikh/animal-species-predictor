@@ -6,35 +6,42 @@ A web-based application that uses a machine learning model to predict animal spe
 
 ## 🚀 Features
 
-- 🧠 Machine Learning Model (Keras) for animal prediction
-- 🖥️ User-friendly web interface built with Django
-- 💾 Model file (`.h5`) and SQLite database support
-- 🗂️ Organized codebase with templates and views
-- 🔍 Predict animal species from input characteristics
-- ✅ Clean separation of concerns (ML logic, views, templates)
+- 🧠 Predicts animal species from uploaded images
+- 🐍 Deep Learning model built using Keras (CNN)
+- 🌐 Django web interface with user-friendly upload form
+- 💾 SQLite database integration
+- 🔐 Admin panel and image history
+- 📂 Organized folder structure with model saved as `.h5`
 
 ---
 
 ## 🧰 Tech Stack
 
-- **Backend**: Django (Python)
-- **ML Framework**: Keras + TensorFlow
-- **Database**: SQLite
-- **Frontend**: HTML/CSS (Django templates)
+### Backend
+- Django (Python Web Framework)
+- SQLite (Default DB)
+- Keras + TensorFlow (Image Classification)
+- PIL (Image Handling)
+
+### Frontend
+- HTML / CSS (Django Templates)
+- Bootstrap (Optional for styling)
 
 ---
 
 ## 📁 Folder Structure
 ```bash
 animal-species-predictor/
-├── animal/ # Django app containing ML logic and views
-├── animal_prediction/ # Django project settings
-├── templates/ # HTML templates
-├── env/ # Virtual environment (ignored in Git)
-├── animals.h5 # Trained ML model
-├── db.sqlite3 # Database file
-├── manage.py # Django project manager
-└── .gitignore # Git ignore file
+├── animal/                   # Django app
+│   ├── migrations/
+│   ├── templates/
+│   └── views.py
+├── animal_prediction/       # Project settings
+├── env/                     # Virtual environment (excluded in .gitignore)
+├── animals.h5               # Trained ML model (CNN)
+├── db.sqlite3               # Database
+├── manage.py
+└── README.md
 ```
 ---
 
@@ -68,8 +75,8 @@ python manage.py migrate
 ### 5. Start the Server
 ```bash
 python manage.py runserver
-Visit http://127.0.0.1:8000/ in your browser.
 ```
+Visit http://127.0.0.1:8000/ in your browser.
 
 
 🧪 Prediction Model
