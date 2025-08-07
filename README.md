@@ -91,21 +91,33 @@ __pycache__/
 db.sqlite3
 *.h5
 ```
-📄 License
+![GitHub Repo stars](https://img.shields.io/github/stars/rashiddshaikh/animal-species-predictor)
+![GitHub forks](https://img.shields.io/github/forks/rashiddshaikh/animal-species-predictor)
+![GitHub issues](https://img.shields.io/github/issues/rashiddshaikh/animal-species-predictor)
+![GitHub last commit](https://img.shields.io/github/last-commit/rashiddshaikh/animal-species-predictor)
+
+---
+
+## 📄 License  
 This project is licensed under the MIT License.
 
-✍️ Author
-Rashid Shaikh
-🔗 GitHub: @rashiddshaikh
-🔗 LinkedIn: https://linkedin.com/in/rashidshaikh-dev
-📧 Email: rashiddsk05@gmail.com
+---
 
-🌟 Contributing
-Pull requests are welcome!
-For major changes, please open an issue first.
+## ✍️ Author  
+**Rashid Shaikh**  
+🔗 GitHub: [@rashiddshaikh](https://github.com/rashiddshaikh)  
+🔗 LinkedIn: [https://linkedin.com/in/rashidshaikh-dev](https://linkedin.com/in/rashidshaikh-dev)  
+📧 Email: [rashiddsk05@gmail.com](mailto:rashiddsk05@gmail.com)
 
-🙏 Acknowledgments
-Inspired by hands-on projects combining Django with Machine Learning.
-Thanks to the open-source and ML communities.
+---
 
+## 🌟 Contributing  
+Pull requests are welcome!  
+For major changes, please [open an issue first](https://github.com/rashiddshaikh/animal-species-predictor/issues).
+
+---
+
+## 🙏 Acknowledgments  
+Project inspired by combining Django with real-world ML use cases.  
+Thanks to the open-source community for amazing tools.
 
