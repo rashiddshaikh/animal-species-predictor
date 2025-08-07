@@ -79,25 +79,30 @@ python manage.py runserver
 Visit http://127.0.0.1:8000/ in your browser.
 Upload an image to see species prediction results.
 
-🧪 Prediction Model
-Model Type: Keras Sequential
+---
 
-File: animals.h5
+## 🧪 Prediction Model
 
-Prediction: Returns animal species based on input features
+- **Model Type**: Keras Sequential  
+- **Model File**: `animals.h5`  
+- **Prediction**: Returns animal species based on input features  
+- **Integration**: Integrated in Django views for real-time results  
 
-Integrated in Django views for real-time results
+---
 
-📄 .gitignore
-Make sure you have the following in your .gitignore file:
+## 📄 .gitignore
 
-```markdown
+Make sure your `.gitignore` includes the following to prevent sensitive or unnecessary files from being pushed to the repository:
+
+```gitignore
 env/
 *.pyc
 __pycache__/
 db.sqlite3
 *.h5
 ```
+
+---
 ![GitHub Repo stars](https://img.shields.io/github/stars/rashiddshaikh/animal-species-predictor)
 ![GitHub forks](https://img.shields.io/github/forks/rashiddshaikh/animal-species-predictor)
 ![GitHub issues](https://img.shields.io/github/issues/rashiddshaikh/animal-species-predictor)
