@@ -77,7 +77,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 Visit http://127.0.0.1:8000/ in your browser.
-
+Upload an image to see species prediction results.
 
 🧪 Prediction Model
 Model Type: Keras Sequential
