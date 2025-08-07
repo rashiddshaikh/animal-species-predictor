@@ -29,22 +29,6 @@ A web-based application that uses a machine learning model to predict animal spe
 
 ---
 
-## 📁 Folder Structure
-```bash
-animal-species-predictor/
-├── animal/                   # Django app
-│   ├── migrations/
-│   ├── templates/
-│   └── views.py
-├── animal_prediction/       # Project settings
-├── env/                     # Virtual environment (excluded in .gitignore)
-├── animals.h5               # Trained ML model (CNN)
-├── db.sqlite3               # Database
-├── manage.py
-└── README.md
-```
----
-
 ## 📦 Installation
 
 ### 1. Clone the Repository
